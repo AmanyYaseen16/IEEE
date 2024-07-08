@@ -1,0 +1,20 @@
+.search-bar{
+    width: 100%;
+    max-width: 600px;
+}
+.search-elem{
+    padding: 1.1rem 1.8rem;
+    border-radius: 4rem;
+}
+.search-elem .search-control{
+    font-size: 1.4rem;
+    padding: 0.5rem;    
+    flex-grow: 1;
+
+}
+.search-elem .search-control::placeholder{
+    opacity: 0.8;
+}
+
+
+

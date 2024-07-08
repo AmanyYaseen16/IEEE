@@ -1,0 +1,31 @@
+.header-content{
+    min-height: 140vh;
+    background: url("../../images/backg.jpg") center/cover no-repeat;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.header-title{
+    padding-top: 1%;
+    font-size: 4rem;
+    margin: 0;
+
+}
+.header-text{
+    display: inline-block;
+    margin-top: -1.2rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.9;
+    max-width: 770px;
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2.8rem; /* Adjust font size for smaller screens */
+        padding-top: 18%; /* Adjust padding for better spacing */
+    }
+}
+
+

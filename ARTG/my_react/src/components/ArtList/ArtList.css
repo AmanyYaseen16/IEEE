@@ -1,0 +1,69 @@
+.artlist {
+    padding: 2rem 0;
+    background-color: #fcf7ec;
+}
+
+.artlist-content{
+    gap: 15px;
+}
+
+.art-item{
+    padding: 2.5rem 3rem;
+    background-color:var(--metal);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px 0px;
+    transition: var(--transition);
+}
+.art-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px 0px;
+}
+.art-item-img img{
+    max-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.art-item-info{
+    margin-top: 1.3rem;
+}
+.art-item-info-item.title{
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.artwork-item-info-item.artist{
+    line-height: 1.4;
+    margin-bottom: 4px;
+    opacity: 0.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.art-item-info-item:not(.art-item-info-item.title) span:last-child{
+    opacity: 0.9;
+}
+
+
+@media screen and (min-width: 600px){
+    .artlist-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .artlist-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .art-item-img img{
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .artlist-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .art-item-img img{
+        max-width: 360px;
+    }
+}
+
