@@ -1,0 +1,23 @@
+.cart-message {
+    padding: 4rem;
+    position: fixed;
+    top: 13.8%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: var(--gun_metal);
+}
+
+.cart-message .cart-message-icon{
+    margin-bottom: 1.7rem;
+}
+
+.cart-message .cart-message-icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
